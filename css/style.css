@@ -1,0 +1,59 @@
+body {
+    background-image: url(../images/veld.gif);
+    background-size: cover;
+    text-align: center;
+
+}
+
+#hpttar {
+    margin-left: 0px;
+    position: relative;
+}
+
+#ttar {
+    margin-left: 1100px;
+    position: relative;
+    top: 360px;
+}
+
+#healthbart {
+    margin-left: 1100px;
+    position: relative;
+    top: 370px;
+}
+
+#tyranitarimg {
+    margin-left: 70%;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 380px;
+}
+
+/*bron tryanitar https://pokelist.fandom.com/wiki/Tyranitar_(Brock_(games)) */
+
+.dragonite {
+    margin-right: 56%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*bron dragonite http://rebloggy.com/post/gif-pokemon-mine-pokemon-gif-kanto-dratini-dragonite-dragonair-pokemon-sprite-bi/87035421487*/
+
+#healthbard {
+    margin-left: 150px;
+}
+
+#dragonitep {
+    margin-right: 37%
+}
+
+#dragoniteimg {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+/*bron achtergrond https://odiciagame.tumblr.com/post/173433365359/battle-background-for-enemies-inside-warehouses */

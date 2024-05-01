@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div class="achtergrond">
+    <div class="tyranitar">
+       <p id="ttar">tyranitar<br><span id="hpttar">100/100 HP</span></p><progress id= "healthbart" value="100" max="100"></progress>
+       <img id="tyranitarimg" src="images/tyranitar.png" alt= "tyranitar">
+    </div>
+
+   <div class="dragonite">
+       <p id="dragonitep">dragonite<br><span id="hpnite">100/100 HP</span></p><progress id= "healthbard" value="100" max="100"></progress>
+       <img id="dragoniteimg" src="images/dragonnite.png" alt= "dragonite">
+    </div>
+    
+
+   <div class="menu">
+       <p id="tekst">Tyranitar wilt de gucci van dragonite kieren, laat Tyranitar rustig doen.</p>
+       <div class="moves">
+          <button id="shanks" >shank<br><span id="shank">20/20</span></button>
+          <button id="superstoters">superstoter<br><span id="superstoter">5/5</span></button>
+          <button id="overkills">overkill<br><span id="overkill">1/1</span></button>
+          <button id="guccipetjes">gucci petje<br><span id="guccipetje">3/3</span></button>
+        </div>
+        <button onclick="window.location.reload();">Opnieuw proberen?</button>
+    </div>
+ </div>
+
+</body>
+<script src="java/fight.js"></script>
+</html>
